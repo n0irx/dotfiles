@@ -1,5 +1,5 @@
 call plug#begin("~/.vim/plugged")
-    Plug 'morhetz/gruvbox'
+    Plug 'joshdick/onedark.vim'
 call plug#end()
 
 " This must be first, because it changes other options as side effect
@@ -13,9 +13,9 @@ nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
 "theme
-" if you don't set this option, this color might not correct
-set termguicolors
-colorscheme gruvbox
+set termguicolors " if you don't set this option, this color might not correct
+colorscheme onedark
+
 
 " or this line
 set tabstop=4       " number of visual spaces per TAB
