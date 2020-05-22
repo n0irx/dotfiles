@@ -14,7 +14,7 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
 "theme
 set termguicolors " if you don't set this option, this color might not correct
-colorscheme onedark
+silent! colorscheme onedark
 
 
 " or this line
